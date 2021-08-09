@@ -4,12 +4,14 @@
 
 The ZED's Spatial Mapping module, including the standalone ZEDfu app, enables 3D scanning of a scene. The colored 3D mesh model is created by integrating the ZED image and depth data over time from multiple viewpoints.
 
+
 ## Quick Start
 
 * Set your preference in the settings menu 
 * Choose a depth mode 
 * Select an input. Input can be a svo file (pre-saved videos from a zed camera) or live-streamed with a connected zed camera
 * Click start and wait for the mesh or fused point cloud to be created
+
 
 ## Features
 
@@ -30,30 +32,16 @@ Several depth modes are available to fit your application’s needs. These setti
  
 Previously generated mesh or fused point clouds (.pth and .obj files) are loadable via the Load map button one at a time.
 
+
 ## Settings
 
-### Spatial Map Type
-Choose between Mesh and fused cloud points.
+* **Spatial Map Type**: Choose between Mesh and fused cloud points.
+* **Resolution Preset**: Controls the level of detail of the spatial map. A higher resolution will provide a more detailed spatial map. Capturing maps with high density requires more memory and resources. 
+* **Range Preset**: Controls the range of the depth data used to build the spatial map. Increasing the mapping range allows the SDK to capture larger volumes quickly, but at the cost of accuracy. Reducing the range will improve spatial mapping performance.
+* **Mesh Filtering**: Filtering is often desirable to reduce the number of polygons per mesh after capture to improve performance when the mesh is used. Mesh Filtering lets you decimate and optimize the 3D models to reduce polygon count while preserving desirable geometric features.
+* **Save raw mesh**: Choose whether you want to save raw mesh objects or not.
+* **Apply texture**: ZEDfu can map the 2D images captured during spatial mapping onto the 3D model surface, resulting in a textured mesh.
 
-### Resolution Preset
-
-Controls the level of detail of the spatial map. A higher resolution will provide a more detailed spatial map. Capturing maps with high density requires more memory and resources. 
-
-### Range Preset
-
-Controls the range of the depth data used to build the spatial map. Increasing the mapping range allows the SDK to capture larger volumes quickly, but at the cost of accuracy. Reducing the range will improve spatial mapping performance.
-
-### Mesh Filtering
-
-Filtering is often desirable to reduce the number of polygons per mesh after capture to improve performance when the mesh is used. Mesh Filtering lets you decimate and optimize the 3D models to reduce polygon count while preserving desirable geometric features.
-
-### Save raw mesh
-
-Choose whether you want to save raw mesh objects or not.
-
-### Apply texture
-
-ZEDfu can map the 2D images captured during spatial mapping onto the 3D model surface, resulting in a textured mesh.
 
 ## Best Practices
 
