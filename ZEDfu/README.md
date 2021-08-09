@@ -15,7 +15,7 @@ The ZED's Spatial Mapping module, including the standalone ZEDfu app, enables 3D
 
 ## Features
 
-### Depth Modes
+##### Depth Modes
 
 Several depth modes are available to fit your application’s needs. These settings adjust the level of accuracy, range and computational performance of the depth sensing module.
 
@@ -23,12 +23,12 @@ Several depth modes are available to fit your application’s needs. These setti
 * **QUALITY**: has a strong filtering stage giving smooth surfaces.
 * **PERFORMANCE**: designed to be smooth, can miss some details.
 
-### Input 
+##### Input 
 
 * **Live**: 
 * **SVO**: you can enable the offline mode to xxxx, there is a timeline on the top right to select where the video starts.
 
-### Load map 
+##### Load map 
  
 Previously generated mesh or fused point clouds (.pth and .obj files) are loadable via the Load map button one at a time.
 
