@@ -1,5 +1,5 @@
 # ZEDfu
-<p align="center"><img src="screenshots/ZEDfu.png" /></p>
+<p align="center"><img src="Screenshots/ZEDfu.png" /></p>
 ## Overview 
 
 The ZED's Spatial Mapping module, including the standalone ZEDfu app, enables 3D scanning of a scene. The colored 3D mesh model is created by integrating the ZED image and depth data over time from multiple viewpoints.
