@@ -1,6 +1,6 @@
 # ZED Depth Viewer
 
-<p align="center"><img src="/home/user/Videos/zed.gif" /></p>
+<p align="center"><img src="screenshots/zed_1.gif" /></p>
 
 ## Overview 
 
