@@ -49,3 +49,11 @@ Generally speaking, we recommend using the ULTRA mode for both desktop and embed
 ### Depth Range
 
 Depth range corresponds to the minimum and maximum distance at which the depth of an object can be estimated. You can set both the minimum and maximum range using the `depth_minimum_distance` and `setDepthMaxRange()` parameters in `InitParameters`.
+
+### Saving Ouputs
+
+It is also possible to save the inputs, depths, and point clouds computed by the ZED Depth Viewer. The input image and depth are saved as *.png* images, while the point cloud is saved as a *.ply* file. The directory in which those outputs are saved can be set by the user by through the settings section, by clicking the toothed wheel in the top right corner of the window. 
+
+### User mode
+
+Besides the live mode, in which the depth and point clouds are computed in real time, it is also possible to load SVO files into the ZED Depth Viewer. 
