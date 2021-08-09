@@ -1,5 +1,7 @@
 # ZED Depth Viewer
 
+<p align="center"><img src="/home/user/Videos/zed.gif" /></p>
+
 ## Overview 
 
 This application allows you to test out the ZED depth estimation software. Using the SDK, this app allows you to capture and display both the depth map and the 3D point cloud, and provides various viewing options. 
