@@ -27,8 +27,8 @@ Several depth modes are available to fit your application’s needs. These setti
 
 #### Input 
 
-* **Live**: 
-* **SVO**: you can enable the offline mode to xxxx, there is a timeline on the top right to select where the video starts.
+* **Live**
+* **SVO**: you can enable the offline. There is a timeline on the top right to select where the video starts.
 
 #### Load map 
  
